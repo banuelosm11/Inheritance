@@ -40,13 +40,32 @@ public class Human {
         return address;
     }
 
+    public void setName(String name1){
+        name = name1;
+    }
+
+    public void setAge(int age1) {
+        age = age1;
+    }
+
+    public void setGender(String gender1) {
+        gender = gender1;
+    }
+
+    public void setOccupation(String occupation1) {
+        occupation = occupation1;
+    }
+
+    public void setAddress(String address1) {
+        address = address1;
+    }
+
     public String toString(){
         return getClass().getName()
-            + "[name=" + name
-            + ",age=" + age
-            + ",gender=" + gender
-            + ",occupation" + occupation
-            + ",address" + address
-            + "]";
+            + "\n" + "name= " + name
+            + "\n" + "age= " + age
+            + "\n" + "gender= " + gender
+            + "\n" + "occupation= " + occupation
+            + "\n" + "address= " + address;
     }
 }

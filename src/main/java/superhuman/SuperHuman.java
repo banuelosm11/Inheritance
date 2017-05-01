@@ -43,9 +43,8 @@ public class SuperHuman extends Human {
 
     public String toString(){
         return super.toString()
-            +"[good=" + good
-            +"heroName=" + heroName
-            +"superAbility" + superAbility
-            +"]";
+            +"\n" + "good= " + good
+            +"\n" + "heroName= " + heroName
+            +"\n" + "superAbility= " + superAbility;
     }
 }

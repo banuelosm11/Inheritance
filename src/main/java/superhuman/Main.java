@@ -22,7 +22,22 @@ public class Main {
         spiderman.setSuperAbility("Spidey senses");
 
 
-        int batmanAge = batman.getAge();
+
+        System.out.println(batman.toString());
+
+        System.out.println("Is Batman good?: "+ batman.getGood());
+
+        batman.setHeroName("bat2");
+
+        System.out.println("Name changed to :" +batman.getHeroName());
+
+
+
+        System.out.println("Batman's real name: " + batman.getName());
+
+        batman.setName("BruceWayne");
+
+        System.out.println("Batman's new real name: " + batman.getName());
 
 
     }
