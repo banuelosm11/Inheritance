@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class Rotator {
 
 
-        public static void rotateAmount (ArrayList newList,int rotateValue){
+        public static void rotateAmount (ArrayList newList, int rotateValue){
 
             for (int j = 0; j < rotateValue; j++) ;
 
