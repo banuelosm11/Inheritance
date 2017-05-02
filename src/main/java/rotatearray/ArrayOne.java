@@ -12,6 +12,7 @@ public class ArrayOne extends ArrayList {
         public static void main(String[] args) {
 
             ArrayList rotatedArray = new ArrayList();
+            Rotator rotating= new Rotator();
 
             {
                 for (int i = 1; i < 7; i++) {
@@ -21,7 +22,7 @@ public class ArrayOne extends ArrayList {
 
             System.out.println("Original " + Arrays.toString(rotatedArray.toArray()));
 
-            //Collections.rotate(rotatedArray, 4);
+            rotating.rotateAmount(rotatedArray, 2);
 
             System.out.println("Rotated " + Arrays.toString(rotatedArray.toArray()));
 

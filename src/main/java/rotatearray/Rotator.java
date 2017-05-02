@@ -8,12 +8,13 @@ import java.util.ArrayList;
 public class Rotator {
 
 
-        public static void rotateAmount (ArrayList newList, int rotateValue){
+        public void rotateAmount (ArrayList newList, int rotateValue){
 
-            for (int j = 0; j < rotateValue; j++) ;
+            for (int j = 0; j < rotateValue; j++) {
 
-            newList.add(newList.get(0));
-            newList.remove(newList.get(0));
+                newList.add(newList.get(0));
+                newList.remove(newList.get(0));
+            }
 
         }
 
