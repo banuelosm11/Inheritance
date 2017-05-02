@@ -6,14 +6,16 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import static rotatearray.Rotator.rotateAmount;
+
 /**
  * Created by aurorabanuelos on 5/1/17.
  */
-public class Main {
+public class MyArray extends Rotator{
 
     public static void main(String[] args) {
 
-        ExtendArray rotatedArray = new ExtendArray();
+        ArrayList rotatedArray = new ArrayList();
 
         {
             for (int i = 1; i < 7; i++) {
@@ -23,8 +25,8 @@ public class Main {
 
         System.out.println("Original " + Arrays.toString(rotatedArray.toArray()));
 
-        //Collections.rotate(rotator, 4);
-        rotatedArray.rotateAmount(rotatedArray, 2);
+        //Collections.rotate(rotatedArray, 4);
+        rotateAmount(rotatedArray, 4);
 
 
 
