@@ -9,11 +9,11 @@ import java.util.List;
 /**
  * Created by aurorabanuelos on 5/1/17.
  */
-public class RotatedArray extends ArrayList {
+public class Main {
 
     public static void main(String[] args) {
 
-        ArrayList rotatedArray = new ArrayList();
+        ExtendArray rotatedArray = new ExtendArray();
 
         {
             for (int i = 1; i < 7; i++) {
@@ -24,7 +24,7 @@ public class RotatedArray extends ArrayList {
         System.out.println("Original " + Arrays.toString(rotatedArray.toArray()));
 
         //Collections.rotate(rotator, 4);
-        ExtendArray.rotateValue(rotatedArray, 2);
+        rotatedArray.rotateAmount(rotatedArray, 2);
 
 
 
