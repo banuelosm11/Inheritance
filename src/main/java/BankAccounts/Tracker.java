@@ -7,7 +7,7 @@ public class Tracker {
 
     private double updatedBalance;
 
-    public void withdrawal(double requestAmount, boolean requestType, Account account1){
+    public void withdrawalOrDeposit(double requestAmount, boolean requestType, Account account1){
 
         if (requestType == true && (requestAmount < account1.getCurrentBalance())) {
 

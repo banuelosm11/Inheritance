@@ -11,7 +11,7 @@ import org.junit.Test;
 public class TrackerTest {
 
     @Test
-    public void withdrawalTest(){
+    public void withdrawalOrDepositTest(){
         //Given:
         double requestAmount = 20.00;
         boolean isWithdrawal = true;
@@ -19,7 +19,7 @@ public class TrackerTest {
         Tracker newRequest = new Tracker();
 
         //When:
-        newRequest.withdrawal(requestAmount, isWithdrawal, account1);
+        newRequest.withdrawalOrDeposit(requestAmount, isWithdrawal, account1);
         double actualResult = account1.getCurrentBalance();
         double expectedResult = 80.00;
 

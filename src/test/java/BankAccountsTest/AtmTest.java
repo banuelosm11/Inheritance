@@ -27,6 +27,20 @@ public class AtmTest {
     }
 
     @Test
+    public void requestTypeTest(){
+        //Given:
+        Atm atmVisit = new Atm();
+
+        //When:
+        atmVisit.requestType(true);
+
+        //Then:
+        Assert.assertTrue(true);
+
+
+    }
+
+    @Test
     public void selectAccountTest(){
         //Given:
         int option = 1;
