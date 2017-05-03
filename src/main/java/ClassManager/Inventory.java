@@ -8,13 +8,13 @@ import org.junit.Test;
  */
 public class Inventory {
 
-    public int quantitySumOfAllProducts (int [] quantities){
+    public int quantityOfAllProducts (int [] idQuantities){
 
         int totalQuantity = 0;
 
-        for(int i = 0; i < quantities.length; i++){
+        for(int i = 0; i < idQuantities.length; i++){
 
-            totalQuantity += quantities[i];
+            totalQuantity += idQuantities[i];
 
         }
 
@@ -22,24 +22,17 @@ public class Inventory {
 
     }
 
-    public double sumValueOfAllProducts ( double [] values){
+    public double valueOfAllProducts ( double [] idValues){
 
         double totalValue = 0.00;
 
-        for(int i=0; i < values.length; i++){
+        for(int i=0; i < idValues.length; i++){
 
-            totalValue += values[i];
+            totalValue += idValues[i];
         }
 
         return totalValue;
     }
 
-    public double totalValueById(int quantityOnHand, double price){
-
-        double valueById = quantityOnHand * price;
-
-        return valueById;
-
-    }
 
 }
