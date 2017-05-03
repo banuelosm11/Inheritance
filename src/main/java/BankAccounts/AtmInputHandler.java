@@ -46,12 +46,12 @@ public class AtmInputHandler {
 
 
 
-    public void accountFinder(String name) {
-        if (name.equals(getAccountHolder()) && accountOption.equals(getAccountType())) {
-
-            accountClassName = getName();
-        }
-    }
+//    public void accountFinder(String name) {
+//        if (name.equals(getAccountHolder()) && accountOption.equals(getAccountType())) {
+//
+//            accountClassName = getName();
+//        }
+//    }
 
 
 

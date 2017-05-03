@@ -12,13 +12,14 @@ public class AtmInputHandlerTest {
     @Test
     public void requestAmountTest(){
         //Given:
-        double amount = 20.00;
         AtmInputHandler atmInputHandlerVisit = new AtmInputHandler();
+        double amount = 20.00;
+        double expectedResult = 20.00;
 
         //When:
         atmInputHandlerVisit.requestAmount(amount);
         double actualResult = atmInputHandlerVisit.getRequestedAmount();
-        double expectedResult = 20.00;
+
 
         //Then:
         Assert.assertEquals(expectedResult, actualResult, 0);
@@ -45,11 +46,11 @@ public class AtmInputHandlerTest {
         //Given:
         int option = 1;
         AtmInputHandler atmInputHandlerVisit = new AtmInputHandler();
+        String expectedResult = "Checking Account";
 
         //When:
         atmInputHandlerVisit.selectAccount(option);
         String actualResult = atmInputHandlerVisit.getAccountOption();
-        String expectedResult = "Checking Account";
 
         //Then:
         Assert.assertEquals(expectedResult, actualResult);
