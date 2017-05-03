@@ -1,14 +1,14 @@
 package BankAccountsTest;
 
 import BankAccounts.CheckingAccount;
-import BankAccounts.Tracker;
+import BankAccounts.BalanceUpdater;
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
  * Created by aurorabanuelos on 5/3/17.
  */
-public class TrackerTest {
+public class BalanceUpdaterTest {
 
     @Test
     public void withdrawalOrDepositTest(){
@@ -16,7 +16,7 @@ public class TrackerTest {
         double requestAmount = 20.00;
         boolean isWithdrawal = true;
         CheckingAccount account1 = new CheckingAccount("Aurora", "Checking", 100.00 );
-        Tracker newRequest = new Tracker();
+        BalanceUpdater newRequest = new BalanceUpdater();
 
         //When:
         newRequest.withdrawalOrDeposit(requestAmount, isWithdrawal, account1);

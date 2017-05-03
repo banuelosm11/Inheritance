@@ -9,23 +9,23 @@ public class Main {
 
     public static void main(String[] args) {
 
-        CheckingAccount aurorachecking = new CheckingAccount("Aurora", "Checking", 400.00);
-        SavingsAccount aurorasaving = new SavingsAccount("Aurora", "Saving", 200.00);
-        BusinessAccount business = new BusinessAccount("CoffeeShop", "Business", 1200.00);
-        CheckingAccount karenchecking = new CheckingAccount("Karen", "Checking", 300.00);
+        CheckingAccount aurorachecking = new CheckingAccount("Aurora", "Checking Account", 400.00);
+        SavingsAccount aurorasaving = new SavingsAccount("Aurora", "Savings Account", 200.00);
+        BusinessAccount business = new BusinessAccount("CoffeeShop", "Business Account", 1200.00);
+        CheckingAccount karenchecking = new CheckingAccount("Karen", "Checking Account", 300.00);
 
 
-        Atm atmVisit = new Atm();
-        Tracker newRequest = new Tracker();
+        AtmInputHandler atmInputHandlerVisit = new AtmInputHandler();
+        BalanceUpdater newRequest = new BalanceUpdater();
 
-        atmVisit.selectAccount(1);
-        atmVisit.requestAmount(40.00);
-        atmVisit.requestType(true);
-        //atmVisit.accountFinder("Aurora");
+        atmInputHandlerVisit.selectAccount(1);
+        atmInputHandlerVisit.requestAmount(40.00);
+        atmInputHandlerVisit.requestType(true);
+        //atmInputHandlerVisit.accountFinder("Aurora");
 
-        //newRequest.withdrawalOrDeposit(atmVisit.getRequestedAmount(), atmVisit.getRequestType(), atmVisit.getAccountName());
+        newRequest.withdrawalOrDeposit(atmInputHandlerVisit.getRequestedAmount(), atmInputHandlerVisit.getRequestType(), atmInputHandlerVisit.getAccountClassName());
 
-        //aurorachecking.getCurrentBalance();
+        aurorachecking.getCurrentBalance();
 
     }
 }

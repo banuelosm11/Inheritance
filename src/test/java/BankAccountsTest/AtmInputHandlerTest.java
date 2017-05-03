@@ -1,23 +1,23 @@
 package BankAccountsTest;
 
-import BankAccounts.Atm;
+import BankAccounts.AtmInputHandler;
 import org.junit.Assert;
 import org.junit.Test;
 
 /**
  * Created by aurorabanuelos on 5/3/17.
  */
-public class AtmTest {
+public class AtmInputHandlerTest {
 
     @Test
     public void requestAmountTest(){
         //Given:
         double amount = 20.00;
-        Atm atmVisit = new Atm();
+        AtmInputHandler atmInputHandlerVisit = new AtmInputHandler();
 
         //When:
-        atmVisit.requestAmount(amount);
-        double actualResult = atmVisit.getRequestedAmount();
+        atmInputHandlerVisit.requestAmount(amount);
+        double actualResult = atmInputHandlerVisit.getRequestedAmount();
         double expectedResult = 20.00;
 
         //Then:
@@ -29,10 +29,10 @@ public class AtmTest {
     @Test
     public void requestTypeTest(){
         //Given:
-        Atm atmVisit = new Atm();
+        AtmInputHandler atmInputHandlerVisit = new AtmInputHandler();
 
         //When:
-        atmVisit.requestType(true);
+        atmInputHandlerVisit.requestType(true);
 
         //Then:
         Assert.assertTrue(true);
@@ -44,12 +44,12 @@ public class AtmTest {
     public void selectAccountTest(){
         //Given:
         int option = 1;
-        Atm atmVisit = new Atm();
+        AtmInputHandler atmInputHandlerVisit = new AtmInputHandler();
 
         //When:
-        atmVisit.selectAccount(option);
-        String actualResult = atmVisit.getAccountType();
-        String expectedResult = "Checking";
+        atmInputHandlerVisit.selectAccount(option);
+        String actualResult = atmInputHandlerVisit.getAccountOption();
+        String expectedResult = "Checking Account";
 
         //Then:
         Assert.assertEquals(expectedResult, actualResult);

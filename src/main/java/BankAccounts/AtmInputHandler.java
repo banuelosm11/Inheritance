@@ -3,12 +3,13 @@ package BankAccounts;
 /**
  * Created by aurorabanuelos on 5/3/17.
  */
-public class Atm {
+public class AtmInputHandler {
 
 
-    private String accountType;
+    private String accountOption;
     private double requestedAmount;
     private boolean requestedType;
+    private Account accountClassName;
 
 
 
@@ -18,16 +19,16 @@ public class Atm {
 
         switch (optionSelection) {
             case 1:
-                accountType = "CheckingAccount";
+                accountOption = "Checking Account";
                 break;
 
             case 2:
-                accountType = "SavingsAccount";
+                accountOption = "Savings Account";
                 break;
 
 
             case 3:
-                accountType = "BusinessAccount";
+                accountOption = "Business Account";
                 break;
 
             default:
@@ -44,22 +45,22 @@ public class Atm {
     public void requestType(boolean request) { requestedType = request;}
 
 
-   // private String accountName;
-//    public void accountFinder(String name) {
-//        if(name.equals(getAccountHolder()))
-//
-//            accountName = getName();
-//    }
-    // public String getAccountName() {return accountName;}
+
+    public void accountFinder(String name) {
+        if (name.equals(getAccountHolder()) && accountOption.equals(getAccountType())) {
+
+            accountClassName = getName();
+        }
+    }
+
 
 
     public double getRequestedAmount() {
         return requestedAmount;
     }
     public boolean getRequestType() { return requestedType;}
-
-
-    public String getAccountType() {
-        return accountType;
+    public Account getAccountClassName() {return accountClassName;}
+    public String getAccountOption() {
+        return accountOption;
     }
 }
