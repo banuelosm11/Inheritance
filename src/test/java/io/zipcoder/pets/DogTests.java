@@ -11,7 +11,7 @@ public class DogTests {
     @Test
     public void speakTest(){
         //Given
-        Dog pet1 = new Dog();
+        Dog pet1 = new Dog("Pet1");
         String expectedResult = "Woof";
 
         //When
@@ -21,4 +21,5 @@ public class DogTests {
         Assert.assertEquals(expectedResult, actualResult);
 
     }
+
 }

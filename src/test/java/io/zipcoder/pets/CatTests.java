@@ -11,7 +11,7 @@ public class CatTests {
     @Test
     public void speakTest(){
         //Given
-        Cat pet1 = new Cat();
+        Cat pet1 = new Cat("Pet1");
         String expectedResult = "Meow";
 
         //When
@@ -21,4 +21,5 @@ public class CatTests {
         Assert.assertEquals(expectedResult, actualResult);
 
     }
+
 }

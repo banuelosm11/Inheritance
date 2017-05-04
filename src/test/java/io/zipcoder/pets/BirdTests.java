@@ -11,7 +11,7 @@ public class BirdTests {
     @Test
     public void speakTest(){
         //Given
-        Bird pet1 = new Bird();
+        Bird pet1 = new Bird("Pet1");
         String expectedResult = "Chirp";
 
         //When
@@ -21,4 +21,5 @@ public class BirdTests {
         Assert.assertEquals(expectedResult, actualResult);
 
     }
+
 }

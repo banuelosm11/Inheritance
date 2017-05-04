@@ -11,7 +11,7 @@ public class PetTests {
     @Test
     public void speakTest(){
         //Given
-        Pet pet1 = new Pet();
+        Pet pet1 = new Pet("Pet1");
         String expectedResult = "Sound";
 
         //When
@@ -20,6 +20,18 @@ public class PetTests {
         //Then
         Assert.assertEquals(expectedResult, actualResult);
 
+    }
+
+    @Test
+    public void nameGetterTest(){
+        //Given
+        Pet pet1 = new Pet("Pet1");
+
+        //When
+        String pet1Name = pet1.getName();
+
+        //Then
+        Assert.assertEquals("Pet1", pet1Name);
     }
 
 
