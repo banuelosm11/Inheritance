@@ -10,7 +10,7 @@ public class UserInput {
 
     Scanner in = new Scanner(System.in);
 
-    ArrayList petInfoList = new ArrayList();
+    ArrayList<Pet> petInfoList = new ArrayList();
 
     public void askAboutPets(){
 
@@ -37,8 +37,9 @@ public class UserInput {
 
         }
 
-        for (Object e : petInfoList)
-            System.out.println(e);
+        System.out.println("Here is a list of your pets:");
+        for (Pet e : petInfoList)
+            System.out.println("Name: " + e.getName() + " Type: " + e.getClass().getSimpleName() + " Says: " + e.speak());
 
     }
 
