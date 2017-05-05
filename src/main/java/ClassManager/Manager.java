@@ -19,7 +19,7 @@ public class Manager {
             System.out.println("Product id: " + p.getId() + " " + "Price: " + p.getPrice() + " " + "Quantity: " + p.getQuantity());
         }
 
-        System.out.println(" ");
+        System.out.println();
         System.out.println("Value of all inventory: " + valueOfAllInventory );
         System.out.println("Quantity of all inventory: " + quantityOfAllInventory );
 

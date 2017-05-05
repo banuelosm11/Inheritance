@@ -40,9 +40,7 @@ public class Human {
         return address;
     }
 
-    public void setName(String name1){
-        name = name1;
-    }
+    public void setName(String name1){name = name1;}
 
     public void setAge(int age1) {
         age = age1;

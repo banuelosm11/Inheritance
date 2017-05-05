@@ -47,17 +47,15 @@ public class AtmInputHandler {
 
 
 //    public void accountFinder(String name) {
-//        if (name.equals(getAccountHolder()) && accountOption.equals(getAccountType())) {
+//        if (name.equals(account1.getAccountHolder()) && accountOption.equals(account1.getAccountType())) {
 //
-//            accountClassName = getClass.getSimpleName();
+//            return accountClassName = account1.getClass().getSimpleName();
 //        }
 //    }
 
 
 
-    public double getRequestedAmount() {
-        return requestedAmount;
-    }
+    public double getRequestedAmount() {return requestedAmount;}
     public boolean getRequestType() { return requestedType;}
     public Account getAccountClassName() {return accountClassName;}
     public String getAccountOption() {
