@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef1d104b-2778-4418-aea5-a5b4cc45d937" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Bird.java" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Bird.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Cat.java" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Cat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Dog.java" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Dog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Main.java" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Inheritance.iml" afterPath="$PROJECT_DIR$/Inheritance.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/UserInput.java" afterPath="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/UserInput.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/BirdTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/BirdTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/CatTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/CatTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/DogTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/DogTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetTests.java" afterPath="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,41 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserInput.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/UserInput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PetTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -85,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/superhuman/SuperHuman.java" />
         <option value="$PROJECT_DIR$/src/main/java/rotatearray/RotateArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/rotatearray/RotatedArray.java" />
@@ -129,12 +95,14 @@
         <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/BirdTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/DogTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/CatTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/UserInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Bird.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Cat.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/PetComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/zipcoder/pets/UserInput.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetComparatorTest.java" />
       </list>
     </option>
   </component>
@@ -201,6 +169,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -363,7 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.PetComparatorTest.compareTest">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -372,26 +344,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="io.zipcoder.pets.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Inheritance" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="BankAccounts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="BankAccounts.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -456,7 +408,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="io.zipcoder.pets in Inheritance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PetTests.compareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="io.zipcoder.pets.*" />
@@ -467,9 +419,35 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="io.zipcoder.pets" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.pets.PetTests" />
+      <option name="METHOD_NAME" value="compareTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PetComparatorTest.compareTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="io.zipcoder.pets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Inheritance" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.zipcoder.pets" />
+      <option name="MAIN_CLASS_NAME" value="io.zipcoder.pets.PetComparatorTest" />
+      <option name="METHOD_NAME" value="compareTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -871,18 +849,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main (3)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PetTests.compareToTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PetTests" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.io.zipcoder.pets in Inheritance" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PetTests.compareToTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PetTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PetTests.compareTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PetComparatorTest.compareTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PetTests.compareToTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.PetTests" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.io.zipcoder.pets in Inheritance" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main (3)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PetComparatorTest.compareTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PetTests.compareTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PetTests.compareToTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PetTests" />
       </list>
     </recent_temporary>
   </component>
@@ -907,25 +885,28 @@
       <workItem from="1493933438973" duration="1188000" />
       <workItem from="1493951694216" duration="3455000" />
       <workItem from="1493988138833" duration="170000" />
-      <workItem from="1494007541021" duration="11857000" />
+      <workItem from="1494007541021" duration="16767000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="PetComparatorTest_compareTest - 2017.05.05 at 19h 02m 49s.xml">
+      <configuration name="PetComparatorTest.compareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetComparatorTest_compareTest - 2017.05.05 at 19h 08m 48s.xml">
+      <configuration name="PetComparatorTest.compareTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetComparatorTest_compareTest - 2017.05.05 at 19h 14m 23s.xml">
+      <configuration name="PetComparatorTest.compareTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="PetTests - 2017.05.05 at 17h 03m 09s.xml">
       <configuration name="PetTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PetTests_compareToTest - 2017.05.05 at 15h 59m 02s.xml">
-      <configuration name="PetTests.compareToTest" configurationId="JUnit" />
+    <history-entry file="PetTests_compareTest - 2017.05.05 at 18h 51m 07s.xml">
+      <configuration name="PetTests.compareTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PetTests_compareToTest - 2017.05.05 at 16h 00m 50s.xml">
-      <configuration name="PetTests.compareToTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PetTests_compareToTest - 2017.05.05 at 16h 12m 21s.xml">
-      <configuration name="PetTests.compareToTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PetTests_compareToTest - 2017.05.05 at 16h 12m 31s.xml">
-      <configuration name="PetTests.compareToTest" configurationId="JUnit" />
+    <history-entry file="PetTests_compareTest - 2017.05.05 at 18h 51m 30s.xml">
+      <configuration name="PetTests.compareTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PetTests_compareToTest - 2017.05.05 at 17h 21m 26s.xml">
       <configuration name="PetTests.compareToTest" configurationId="JUnit" />
@@ -939,15 +920,13 @@
     <history-entry file="PetTests_compareToTest - 2017.05.05 at 17h 28m 42s.xml">
       <configuration name="PetTests.compareToTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="io_zipcoder_pets_in_Inheritance - 2017.05.05 at 16h 49m 46s.xml">
-      <configuration name="io.zipcoder.pets in Inheritance" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96049000" />
+    <option name="totallyTimeSpent" value="100959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-103" y="-744" width="1260" height="669" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -958,7 +937,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34315425" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34315425" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1028,21 +1007,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BankAccountsTest/AtmInputHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BankAccounts/BalanceUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1337,18 +1301,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/zipcoder/pets/PetTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="43" column="37" lean-forward="true" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+        <state relative-caret-position="184">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/PetComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/Pet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/UserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1357,14 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/zipcoder/pets/UserInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>

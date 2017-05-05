@@ -1,9 +1,11 @@
 package io.zipcoder.pets;
 
+import java.util.Comparator;
+
 /**
  * Created by aurorabanuelos on 5/3/17.
  */
-public class Pet implements Comparable<Pet>{
+public class Pet implements Comparable<Pet> {
 
     private String name;
     private String animalType;
@@ -29,6 +31,8 @@ public class Pet implements Comparable<Pet>{
         else { return compare;
         }
     }
+
+
 
 
 }

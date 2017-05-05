@@ -40,6 +40,8 @@ public class UserInput {
 
         Collections.sort(petInfoList);
 
+        Collections.sort(petInfoList, new PetComparator());
+
         System.out.println("Here is a list of your pets:");
         for (Pet e : petInfoList)
             System.out.println("Name: " + e.getName() + " Type: " + e.getAnimalType() + " Says: " + e.speak());
