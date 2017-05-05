@@ -11,7 +11,7 @@ public class CatTests {
     @Test
     public void speakTest(){
         //Given
-        Cat pet1 = new Cat("Pet1");
+        Cat pet1 = new Cat("Pet1", "Dog");
         String expectedResult = "Meow";
 
         //When

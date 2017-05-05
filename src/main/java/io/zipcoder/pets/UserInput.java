@@ -1,7 +1,6 @@
 package io.zipcoder.pets;
 
-import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by aurorabanuelos on 5/4/17.
@@ -10,9 +9,11 @@ public class UserInput {
 
     Scanner in = new Scanner(System.in);
 
-    ArrayList<Pet> petInfoList = new ArrayList();
+
 
     public void askAboutPets(){
+
+        ArrayList<Pet> petInfoList = new ArrayList();
 
         System.out.println("How many pets do you have?");
         int numberOfPets = in.nextInt();
@@ -23,23 +24,25 @@ public class UserInput {
             String name = in.next();
 
             System.out.println("What type is your pet?");
-            String type = in.next();
+            String animalType = in.next();
 
-            if (type.equalsIgnoreCase("Bird")){
-                petInfoList.add(new Bird(name));
-            } else if (type.equalsIgnoreCase("Dog")){
-                petInfoList.add(new Dog(name));
-            } else if (type.equalsIgnoreCase("Cat")){
-                petInfoList.add(new Cat(name));
+            if (animalType.equalsIgnoreCase("Bird")){
+                petInfoList.add(new Bird(name, animalType));
+            } else if (animalType.equalsIgnoreCase("Dog")){
+                petInfoList.add(new Dog(name, animalType));
+            } else if (animalType.equalsIgnoreCase("Cat")){
+                petInfoList.add(new Cat(name, animalType));
             } else {
-                petInfoList.add(new Pet(name));
+                petInfoList.add(new Pet(name, animalType));
             }
 
         }
 
+        Collections.sort(petInfoList);
+
         System.out.println("Here is a list of your pets:");
         for (Pet e : petInfoList)
-            System.out.println("Name: " + e.getName() + " Type: " + e.getClass().getSimpleName() + " Says: " + e.speak());
+            System.out.println("Name: " + e.getName() + " Type: " + e.getAnimalType() + " Says: " + e.speak());
 
     }
 

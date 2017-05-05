@@ -11,7 +11,7 @@ public class BirdTests {
     @Test
     public void speakTest(){
         //Given
-        Bird pet1 = new Bird("Pet1");
+        Bird pet1 = new Bird("Pet1", "Bird");
         String expectedResult = "Chirp";
 
         //When

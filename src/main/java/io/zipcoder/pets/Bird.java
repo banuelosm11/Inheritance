@@ -5,8 +5,8 @@ package io.zipcoder.pets;
  */
 public class Bird extends Pet {
 
-    public Bird (String name){
-        super(name);
+    public Bird (String name, String animalType){
+        super(name, animalType);
     }
 
     @Override

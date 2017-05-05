@@ -11,7 +11,7 @@ public class DogTests {
     @Test
     public void speakTest(){
         //Given
-        Dog pet1 = new Dog("Pet1");
+        Dog pet1 = new Dog("Pet1", "Dog");
         String expectedResult = "Woof";
 
         //When
